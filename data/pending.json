@@ -1,1 +1,154 @@
-[]
+[
+  {
+    "key": "f27d611111fafdc3",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix",
+    "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+    "published_at": "2026-11-13",
+    "publisher": "BleepingComputer",
+    "hint": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers over cellular networks.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-13T22:37:07.182Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "f0f23fdb08d7bf54",
+    "source_id": "therecord",
+    "origin": "news",
+    "url": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
+    "title": "FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’",
+    "published_at": "2026-11-13",
+    "publisher": "The Record",
+    "hint": "Open source hacking tool Artex \"significantly reduces the time required to chain attack techniques, with some intrusions progressing from initial targeting to privileged access in under three hours,\" the FBI said.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-13T22:37:07.307Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "810ecd44c3ac2c42",
+    "source_id": "therecord",
+    "origin": "news",
+    "url": "https://therecord.media/city-of-osaka-japan-email-data-breach",
+    "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
+    "published_at": "2026-11-13",
+    "publisher": "The Record",
+    "hint": "Osaka, Japan's third-largest city, told its 2.8 million residents to be wary of suspicious emails purporting to come from the local government.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-13T22:37:07.307Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "5284945e02ddb127",
+    "source_id": "cyberscoop",
+    "origin": "news",
+    "url": "https://cyberscoop.com/copeland-dixell-refrigeration-vulnerabilities",
+    "title": "Researchers continue to find serious vulnerabilities in internet connected refrigerators",
+    "published_at": "2026-11-13",
+    "publisher": "CyberScoop",
+    "hint": "VulnCheck disclosed 14 vulnerabilities in Dixell refrigeration units that give an attacker root access, while online honeypots are being flooded with hacks and malicious probes.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-13T22:37:07.324Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "29649ccd60b64ead",
+    "source_id": "cyberscoop",
+    "origin": "news",
+    "url": "https://cyberscoop.com/pall-mall-process-commercial-spyware-guidelines",
+    "title": "Industry guidelines for offensive cyber tools unveiled through international Pall Mall Process",
+    "published_at": "2026-11-13",
+    "publisher": "CyberScoop",
+    "hint": "The United States this week signed on to an international set of industry standards for commercial offensive cyber tools that human rights groups and other advocates wish had been stronger. The Pall Mall Process voluntary industry guidelines for commercial cyber intrusion capabilities (CCICs), such as spyware, are the second step in a U.K.- and France-led…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-13T22:37:07.324Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "e8bfb5d5c05421cf",
+    "source_id": "ms-security",
+    "origin": "news",
+    "url": "https://microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions",
+    "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
+    "published_at": "2026-11-13",
+    "publisher": "Microsoft Security",
+    "hint": "SCKit abuses ScreenConnect to deploy unauthorized remote access and target technicians. Explore the attack chain, mitigations, and Microsoft Defender XDR hunting.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-13T22:37:07.728Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "f0ecb1e0931aad91",
+    "source_id": "talos",
+    "origin": "news",
+    "url": "https://blog.talosintelligence.com/artex-and-beyond",
+    "title": "ARTEX and beyond: AI-enabled penetration testing platforms",
+    "published_at": "2026-11-13",
+    "publisher": "Cisco Talos",
+    "hint": "AI-enabled penetration testing and red team frameworks can automate and chain reconnaissance, vulnerability testing, and follow-on actions, lowering the skill threshold for attackers and accelerating intrusions when the tools are misused.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-13T22:37:09.129Z",
+    "extra": {
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "6dd3e211e554ad87",
+    "source_id": "kev",
+    "origin": "seed_nvd",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-114713",
+    "title": "CVE-2026-114713: UnrealIRCd UnrealIRCd — UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+    "published_at": "2026-11-13",
+    "publisher": "CISA",
+    "hint": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority. Added to the CISA Known Exploited Vulnerabilities catalog on 2026-11-13: exploitation confirmed. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD…",
+    "cve_ids": [
+      "CVE-2026-114713"
+    ],
+    "discovered_at": "2026-11-13T22:37:09.827Z",
+    "extra": {
+      "classifier_hint": "CISA KEV entry: exploitation in the wild is confirmed, so this is at least severity 3, lane patch, and clears the curation bar (newsworthy). attack_on_ai only when the product is an AI system, framework or tool; otherwise not_ai with categories [general]. patch_status from the required action: apply updates means patched, mitigations means partial.",
+      "kev": true,
+      "incident_date": "2026-11-13",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "due_date": "2026-11-16",
+      "ransomware": false,
+      "vendor": "UnrealIRCd",
+      "product": "UnrealIRCd",
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "1288ac841747bf81",
+    "source_id": "nvd",
+    "origin": "seed_nvd",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127214",
+    "title": "CVE-2026-127214: Flowise through 3.1.4 contains a server-side request forgery vulnerability that allows authenticated attackers with chatflows or…",
+    "published_at": "2026-11-13",
+    "publisher": "NVD",
+    "hint": "Flowise through 3.1.4 contains a server-side request forgery vulnerability that allows authenticated attackers with chatflows or agentflows create/update permissions to bypass the Custom Function sandbox's SSRF protection by requiring a module subpath inside an allowlisted package, such as axios/dist/node/axios.cjs or node-fetch/lib/index.js, which evades the vm2 mock table and returns an unwrapped HTTP client that skips the checkDenyList validation. Attackers can issue arbitrary GET and POST requests with attacker-controlled bodies via POST /api/v1/node-custom-function to reach loopback and…",
+    "cve_ids": [
+      "CVE-2026-127214"
+    ],
+    "discovered_at": "2026-11-13T22:40:40.430Z",
+    "extra": {
+      "classifier_hint": "NVD CVE record matched by an allow-listed AI product keyword. In scope as attack_on_ai / infra_vuln when the affected software is an AI framework, model server, agent tool or AI product; out of scope if the keyword is a false positive. Severity 2 (disclosed vulnerability) unless exploitation is confirmed (CISA KEV or vendor statement → 3). incident_date is the published date.",
+      "cvss": 6.3,
+      "kev": false,
+      "matched_keyword": "Flowise",
+      "incident_date": "2026-11-13",
+      "ai_hint": true
+    }
+  }
+]
