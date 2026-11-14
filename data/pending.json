@@ -150,5 +150,20 @@
       "incident_date": "2026-11-13",
       "ai_hint": true
     }
+  },
+  {
+    "key": "b010a5143b9e305b",
+    "source_id": "darkreading",
+    "origin": "news",
+    "url": "https://darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
+    "title": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
+    "published_at": "2026-11-13",
+    "publisher": "Dark Reading",
+    "hint": "The Android malware has expanded from focusing on crypto theft to full device control, and the attackers have added advanced analysis of stolen information.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-14T03:14:14.378Z",
+    "extra": {
+      "ai_hint": true
+    }
   }
 ]
