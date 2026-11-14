@@ -165,5 +165,20 @@
     "extra": {
       "ai_hint": true
     }
+  },
+  {
+    "key": "431b43f1dd9338f0",
+    "source_id": "securityweek",
+    "origin": "news",
+    "url": "https://securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update",
+    "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
+    "published_at": "2026-11-14",
+    "publisher": "SecurityWeek",
+    "hint": "Officials say there is no evidence of a cyberattack behind the nationwide FAA outage, which may have been caused by a software update.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-14T10:28:33.109Z",
+    "extra": {
+      "ai_hint": false
+    }
   }
 ]
