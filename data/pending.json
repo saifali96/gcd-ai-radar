@@ -67,13 +67,703 @@
     "title": "PHP Rings the Alarm Again: What We Know (and Don’t) About Today’s Critical PHP Security Release",
     "published_at": "2026-11-19",
     "publisher": "Checkmarx",
-    "hint": "Live Updates This is a developing story. We will add each update here as PHP publishes advisories, CVE identifiers, and fixed version numbers. Newest first. Time (UTC) Update 19 Nov PHP has not yet published technical details, CVE identifiers, or fixed versions. CVE-2026-115560 is reported, not confirmed, to be part of this release. TL;DR: How…",
+    "hint": "Live Updates This is a developing story. We will add each update here as PHP publishes advisories, CVE identifiers, and fixed version numbers. Newest first. Time (UTC) Update 19 Nov, advisories are published PHP has published 7 critical CVEs, among them. CVE-2026-115560 is now confirmed. CVE-2026-115560CVE-2026-126714CVE-2026-129289CVE-2026-129474CVE-2026-129481CVE-2026-129496CVE-2026-129182 19 Nov, pre-release PHP has not yet published technical details,…",
     "cve_ids": [
       "CVE-2026-115560"
     ],
     "discovered_at": "2026-11-19T13:04:24.304Z",
     "extra": {
       "ai_hint": false
+    }
+  },
+  {
+    "key": "570ca87e09a1a9c2",
+    "source_id": "securityweek",
+    "origin": "news",
+    "url": "https://securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt",
+    "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+    "published_at": "2026-11-19",
+    "publisher": "SecurityWeek",
+    "hint": "Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:02.735Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "33e3271745305272",
+    "source_id": "securityweek",
+    "origin": "news",
+    "url": "https://securityweek.com/php-patches-seven-critical-rce-vulnerabilities",
+    "title": "PHP Patches Seven Critical RCE Vulnerabilities",
+    "published_at": "2026-11-19",
+    "publisher": "SecurityWeek",
+    "hint": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker’s privileges.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:02.735Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "9207782afe9b271b",
+    "source_id": "securityweek",
+    "origin": "news",
+    "url": "https://securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim",
+    "title": "Nvidia Responds to Gentlemen Ransomware Claim",
+    "published_at": "2026-11-19",
+    "publisher": "SecurityWeek",
+    "hint": "Nvidia says it has found no indication that its systems were compromised after the Gentlemen ransomware group listed the company as a victim.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:02.735Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "aaaa9206db6b8eb9",
+    "source_id": "securityweek",
+    "origin": "news",
+    "url": "https://securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release",
+    "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+    "published_at": "2026-11-19",
+    "publisher": "SecurityWeek",
+    "hint": "Attackers hacked clustered Cisco Expressway devices at a Russian organization and prepared tooling for lateral movement.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:02.735Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "afb99d1762e02fd0",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express",
+    "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+    "published_at": "2026-11-19",
+    "publisher": "BleepingComputer",
+    "hint": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:02.857Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "6a24ac13de996a31",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data",
+    "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+    "published_at": "2026-11-19",
+    "publisher": "BleepingComputer",
+    "hint": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:02.857Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "a3ad5d5a355f546e",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers",
+    "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+    "published_at": "2026-11-19",
+    "publisher": "BleepingComputer",
+    "hint": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:02.857Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "b21af4fa25da3c62",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly",
+    "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+    "published_at": "2026-11-19",
+    "publisher": "BleepingComputer",
+    "hint": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:02.857Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "b8ae93803d26caf9",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft",
+    "title": "Five warning signs of ransomware breach before encryption or data theft",
+    "published_at": "2026-11-19",
+    "publisher": "BleepingComputer",
+    "hint": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical systems and backups.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:02.857Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "22f040ad332e10ba",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs",
+    "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+    "published_at": "2026-11-19",
+    "publisher": "BleepingComputer",
+    "hint": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:02.857Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "53e4a59238e8a8ae",
+    "source_id": "thn",
+    "origin": "news",
+    "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+    "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+    "published_at": "2026-11-19",
+    "publisher": "The Hacker News",
+    "hint": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access. There's another shift worth watching. AI is making some attacks easier",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:02.870Z",
+    "extra": {
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "f92f66411a812200",
+    "source_id": "thn",
+    "origin": "news",
+    "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+    "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+    "published_at": "2026-11-19",
+    "publisher": "The Hacker News",
+    "hint": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific",
+    "cve_ids": [
+      "CVE-2026-115560"
+    ],
+    "discovered_at": "2026-11-19T21:33:02.871Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "7008c485fa38b4e8",
+    "source_id": "thn",
+    "origin": "news",
+    "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+    "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+    "published_at": "2026-11-19",
+    "publisher": "The Hacker News",
+    "hint": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines. The",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:02.871Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "6e1cc48f217d3df0",
+    "source_id": "thn",
+    "origin": "news",
+    "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+    "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+    "published_at": "2026-11-19",
+    "publisher": "The Hacker News",
+    "hint": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday. The Drupal Security Team disclosed",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:02.871Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "648f4746253c461c",
+    "source_id": "thn",
+    "origin": "news",
+    "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+    "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+    "published_at": "2026-11-19",
+    "publisher": "The Hacker News",
+    "hint": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server. Today's PHP releases fix the flaw, called phpAfterShell. The flaw is tracked as CVE-2026-126714 and rated",
+    "cve_ids": [
+      "CVE-2026-126714"
+    ],
+    "discovered_at": "2026-11-19T21:33:02.871Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "4692e0d9ed573f96",
+    "source_id": "therecord",
+    "origin": "news",
+    "url": "https://therecord.media/doj-dhs-partner-on-new-unit-tackling-scams-cybercrime",
+    "title": "DOJ, DHS partner on new unit tackling scams and cybercrime",
+    "published_at": "2026-11-19",
+    "publisher": "The Record",
+    "hint": "The departments are partnering on the Threat Disruption Center to better triage victim complaints, map cybercriminal networks and provide a direct channel to private sector organizations that work with victims.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:02.976Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "c0b2110866740c07",
+    "source_id": "therecord",
+    "origin": "news",
+    "url": "https://therecord.media/cisa-losapio-nomination-trump",
+    "title": "CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack",
+    "published_at": "2026-11-19",
+    "publisher": "The Record",
+    "hint": "President Donald Trump’s pick to lead the Cybersecurity and Infrastructure Security Agency pledged to lawmakers to uncover any “gaps” within the organization while also denying the Capitol came under attack on January 6, 2021.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:02.976Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "9ccd485b7d8979e7",
+    "source_id": "helpnetsecurity",
+    "origin": "news",
+    "url": "https://helpnetsecurity.com/2026/11/19/russian-spies-impersonation-cloud-breach",
+    "title": "Russian spies turn one cloud breach into a stepping stone for the next",
+    "published_at": "2026-11-19",
+    "publisher": "Help Net Security",
+    "hint": "A Russian cyberespionage group is posing as employees of organizations it has already breached to phish new targets, Google Threat Intelligence Group (GTIG) found. Google tracks the group as COLD RELIC (also known as Star Blizzard, Callisto and Gossamer Bear), and the US Department of Justice has assessed that it operates within Russia’s Federal Security Service (FSB). COLD RELIC goes after government officials, defense contractors and NGOs in Europe and North America. “The group is … More →",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:03.154Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "3c22a4a362d13e84",
+    "source_id": "darkreading",
+    "origin": "news",
+    "url": "https://darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era",
+    "title": "Navigating Vulnerability Hysteria in the AI Era",
+    "published_at": "2026-11-19",
+    "publisher": "Dark Reading",
+    "hint": "This installment of the Reporters' Notebook video series examines the fallout from recent high-severity flaw disclosures, exploring how fears of AI-assisted exploits trigger widespread panic, operational disruptions, and growing warning fatigue.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:03.247Z",
+    "extra": {
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "01832162032c135b",
+    "source_id": "gtig",
+    "origin": "news",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere",
+    "title": "ARMORY CASTLE Exploits vSphere",
+    "published_at": "2026-11-19",
+    "publisher": "Google Threat Intelligence",
+    "hint": "Written by: Jayson Frost, Bryce Greathouse, Dhanesh Kizhakkinan, John Palmisano, Steve Rasch, Daniel Sislo, John Wolfram Introduction On Oct. 15, 2026, Mandiant and Google Threat Intelligence Group (GTIG) published a blog post detailing recent activity in which the suspected PRC-nexus threat actor ARMORY CASTLE (formerly tracked as UNC5221) exploited CVE-2026-102764, a zero-day vulnerability in BeyondTrust Remote Support, which was patched in BT26-05 . We also described some of the threat actor’s post-exploitation operations. In this blog we describe additional post-compromise activity…",
+    "cve_ids": [
+      "CVE-2026-102764"
+    ],
+    "discovered_at": "2026-11-19T21:33:05.060Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "4a3656e09a0d44a9",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.23838",
+    "title": "Plug-and-Play Multi-Licensee Robust Watermarking for Mixture-of-Experts LLMs",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "Mixture-of-Experts (MoE) architectures enable high-capacity large language models (LLMs) with high sparse computation, making them attractive for deployment on private hardware. However, distributing model weights exposes valuable intellectual property (IP) to leakage and unauthorized redistribution, creating an urgent need to both verify model ownership and trace leaked copies to individual licensees. Existing model-watermarking techniques are ill-suited for meeting this need because they are fragile under MoE's dynamic routing or require…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.974Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "4f2a5fa1e27dec6b",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.23507",
+    "title": "ACaM: Automated Capability Modeling for Agentic AI Security",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "In agentic AI systems, an LLM invokes tools that hold standing access to credentials, private data, filesystems, and external services. Such agents are increasingly deployed without an answer to a basic question: what can an agent access, exfiltrate, and propagate, independent of what it is designed for or is observed to do? The question goes unanswered because existing approaches trust a tool's natural-language description as a proxy for its behavior. But nothing enforces that the description and its implementation agree. This gap is known as…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.974Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "674cfbc32cef2f0c",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.23947",
+    "title": "When Do Decision Models Help LLM-Driven Network Discovery?",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "Network discovery, the identification of live hosts and their exposed services, is the first phase of every penetration test, and it is increasingly automated by harnesses driven by large language models (LLMs). To mitigate hallucinated or unsafe commands, recent work proposes inserting fast, non-generative decision models to validate actions prior to execution. This paper quantifies whether such validation improves discovery across three network scales (n = 10, 100, and 1,000) in a simulation calibrated on a 30-node containerized testbed. Our…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.974Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "4be10769c28cfa90",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.23669",
+    "title": "FlowSH: Detecting Web Attacks by Correlating Anomalous Network Flows and Endpoint Logs",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "Web applications compose the core of internet services, rendering them prominent targets for audacious attackers. Among web attacks, SQL injection (SQLi) remains a persistent, damaging web applications connected to databases. The widespread adoption of HTTPS has been a critical advancement for online security, ensuring the confidentiality and integrity of communications by encrypting network payloads. However, it also renders traditional Network Intrusion Detection Systems (NIDS) less effective, as these typically rely on packet inspection of…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.974Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "89c0ce6b226bbbe6",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.23844",
+    "title": "Weighing the Envelope: Component Weight and Arbitration in Envelope-Layer Defenses for a Single LLM Agent",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "The envelope layer is the channel through which malicious content enters an LLM agent. Prior work established label and memory effects on multi-agent A2A envelopes, but the weight structure when MCP tools and memory coexist in a single agent remains unclear. Our threat model assumes an attacker pre-plants a malicious tool and poisons long-term memory; a benign user request inadvertently triggers it, and the attacker never enters the conversation. Following GDA Measurement and A/B/C/D, we measure how labels, memory, tool roles, and the backend…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.974Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "dd8796b34a77731a",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.23660",
+    "title": "Protecting Web Applications using a Multimodal AI-based System for Classifying Web Injection Attacks",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "Web applications have been essential to accessing and managing online services. Made available with weaknesses, much due to their rapid development and human error, they are exposed to frequent web injection attacks, leaving security analysts overwhelmed with threats and alerts that often lack critical details for proper risk assessment. Detecting these attacks requires inspecting the payload of network traffic packets, which becomes inaccessible when traffic is encrypted via HTTPS, as encryption hides the content of the traffic. This paper…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.974Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "9ac65580a3d25d13",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.23683",
+    "title": "JEV vs. LLMs: A Comparative Analysis for Phishing Email Detection",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "Phishing remains a major source of credential theft and fraudulent payments, and email security systems must classify large message volumes reliably, quickly, and at manageable cost. Large Language Models (LLMs) offer flexible text understanding, but their token-based generation increases response time and API cost, and the reliability of their confidence values requires measurement. Jev 1.13, a typed decision model from TypeSafe AI, instead returns a structured outcome with a confidence value. This paper compares Jev 1.13 with Gemini 3.5…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.974Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "4d8e50dff2cd5909",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.24313",
+    "title": "AutoPI: Taxonomy-Guided Adaptive Red Teaming for Prompt Injection in LLM Agents",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "Prompt injection is the dominant unsolved security risk for LLM agents, and the community now agrees that robustness must be measured against adaptive attackers rather than fixed benchmark injections. Many adaptive red teamers exist, and most are built to maximize attack success rate (ASR). Yet ASR counts how often a target breaks, not in how many different ways. A red teamer can achieve a high ASR by reusing a few techniques that work, leaving the others untested and absent from the attacks used to harden models. We present AutoPI, an adaptive…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.975Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "7b8371ec98cfc7a5",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.24362",
+    "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "Large language model (LLM) agents routinely interact with untrusted external data, exposing them to indirect prompt injection (IPI) attacks that hijack agents into executing attacker-chosen tasks. To uncover these vulnerabilities at scale, automated red-teaming methods often leverage reinforcement learning (RL) to generate attacks that achieve high attack success rates (ASR). Model developers use the attacks discovered during internal red-teaming to harden agents through adversarial training before deployment, a collaborative offensive-defensive…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.975Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "0fa7c88f1777fa07",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.24662",
+    "title": "Gradient-Based Defensive Poisoning Against System Identification Attacks on Cyber-Physical Systems",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "AI-driven attacks learn the models of cyber-physical systems (CPS) by passively observing controller and plant signals, then use this knowledge to act covertly. Because covertness depends on the accuracy of the identified model, degrading that accuracy is a viable countermeasure. This work applies Adversarial Machine Learning as a defense, injecting small perturbations into the measurements the attacker observes to degrade an artificial neural network (ANN)-based system identification (SI) attack. The perturbations are derived from input…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.975Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "24673aeae097caf5",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.23236",
+    "title": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "LLM-enhanced recommender systems encode item side information into semantic embeddings, but these embeddings may leak sensitive textual attributes through inversion attacks. Existing input-side defenses rely on trusted collection or local token perturbation, often disrupting the inter-item semantic topology needed for recommendation. To address it, we introduce relational fidelity as the key objective, requiring semantic shift for privacy while preserving relative item relations for utility. Based on this principle, we propose prototype-guided…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.975Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "cross",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "4f7bffa93cbdadcb",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.23770",
+    "title": "DetectViT: Test-time Backdoor Detection for Vision Transformers via Inter-Head Attention Discrepancy",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "Vision Transformers (ViTs) now underpin the visual encoders of most multimodal models, but this success comes at a cost: relying on third-party pretrained checkpoints leaves these systems open to backdoor attacks. Existing test-time detection methods rely on either the predicted label or intermediate embeddings, limiting their applicability across diverse tasks and incurring substantial computational overhead. In this work, we study how backdoor triggers affect the multi-head attention mechanism of ViTs and identify two distinct anomalous…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.975Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "cross",
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "d97e362c3b8311d1",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.24494",
+    "title": "RECLAIM: Robot-Vision-Informed Adversarial Patch Defense via Embodied Attention Feedback",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "Vision-language-action policies control embodied agents through a perception-action loop grounded in physical interaction, where adversarial patches can corrupt action predictions and thereby alter subsequent observations. To mitigate these threats, many existing defenses rely on policy adaptation or auxiliary models, but require additional training or inference. We introduce RECLAIM, a training-free, inference-time defense that uses a frozen VLA's own attention response to local visual interventions to guide purification during closed-loop…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.975Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "cross",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "611179353ab264d7",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.24689",
+    "title": "Stealing Exact Training Data from Other Clients during Federated Learning",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "Malicious adversaries can employ gradient inversion attacks to reverse-engineer private data using the model updates of a round in Federated Learning. While there have been developments in gradient inversion for text, exact text recovery by a malicious client has so far remained infeasible, as FedAvg entangles the gradient contributions of many clients and obscures the signal of any individual sentence. We introduce a novel attack pipeline that unwinds this entanglement progressively through an iterative loop, in which the gradient…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.975Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "cross",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "b7a81c659ac0ee44",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.24231",
+    "title": "What Survives the Shift from Text to Pixels? Conditional Protection against Prompt Injection in Image-Rendered Documents",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "Multimodal language models increasingly answer questions over external documents, exposing them to indirect prompt injection: commands planted in untrusted content to hijack the response. Rendering untrusted content as page images lowers attack success on average, leaving open which injected operations survive rendering, at what utility cost, and whether failed image attacks reflect unread commands or commands read but not followed. We pair text and page-image versions of 191 English question-answering sources across six models, measuring marker…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.975Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "6a6aa7f9ab51505c",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.23666",
+    "title": "Rented Oscillations: Multi-Tenant Data Center Workload Synchronization Attacks and Mitigation",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "Multi-tenant data center (DC) facilities rent computing capacity on demand, placing controllable load within reach of anyone willing to pay for it. This paper considers a stealthy adversary who rents workstations and runs deliberately unoptimized large language model (LLM) training, synchronizing their consumption into large periodic oscillations while each workload remains individually indistinguishable from benign training. The periodicity of such workloads is characterized experimentally and used to model facility consumption, showing that…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.975Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "cross",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "58401e67ffb09b5b",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.24558",
+    "title": "SCR: Detecting Backdoor-Poisoned Samples through Clean-Reference Residuals",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "Deep neural networks are vulnerable to backdoor attacks, in which adversaries manipulate model predictions by injecting poisoned samples into training data. Detecting these samples remains challenging because legitimate semantic variation can obscure poisoning-related signals in learned representations. Consequently, class-level statistics used by existing detectors may flag benign feature deviations while overlooking poisoned samples that blend into the class distribution. In this paper, we propose Semantic Counterfactual Residualization…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.975Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "cross",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "4b6b3ba92a66aa4c",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.24765",
+    "title": "LLM-Guided Cyber-Physical Attack Path Identification in Smart Grids",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "Identifying high-impact attack paths in cyber-physical power systems is critical for improving grid resilience. Existing methods typically rely on either structural topology analysis or simulation-based cascading-failure models. Topology-based approaches capture connectivity but lack adversarial reasoning, while simulation-driven methods are primarily suited for offline analysis and are less effective for rapid evaluation of evolving attack scenarios. As a result, identifying realistic attack paths that jointly capture topology, threat…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.975Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "8d427bf46d192815",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.23304",
+    "title": "LLMs for Software Vulnerability Prediction and Prioritization: A Review",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "Large language models have moved beyond vulnerability detection into prediction, assessment, exploitability estimation, risk assessment and prioritization, yet the evidence for this shift has not been synthesised separately from the detection literature. In this systematic literature review, we examine how LLMs are used across those five task classes, how well they perform against established baselines, and what prevents their operational adoption. Following a prespecified protocol, we identified 197 records, removed 53 duplicates, and…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.975Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "cross",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "4cada68caea82105",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.24899",
+    "title": "\"I Don't Think It's a Scam\": A First Look at Family Intervention Barriers in Elder Abuse Discussions on Reddit and Baidu Tieba",
+    "published_at": "2026-11-19",
+    "publisher": "arXiv",
+    "hint": "When older adults trust scammers despite warnings, families face obstacles to intervention. Complainants aged 60 and older reported \\$4.9 billion in losses in 2024 to the U.S. Internet Crime Complaint Center. To investigate family intervention barriers to elder scams, we collected 2M Reddit posts from May 2021 to June 2026 and 2B Baidu Tieba posts from 2007 to 2026. The final corpora contain 13,082 Reddit posts and 3,933 Baidu Tieba posts, labeled using platform-specific codebooks, manual reference annotations, and LLM coding. Through a…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T21:33:06.976Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "cross",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "8e013fb3122209b8",
+    "source_id": "nvd",
+    "origin": "seed_nvd",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77318",
+    "title": "CVE-2026-77318: Jupyter MCP Server is a Model Context Protocol server for Jupyter.",
+    "published_at": "2026-11-19",
+    "publisher": "NVD",
+    "hint": "Jupyter MCP Server is a Model Context Protocol server for Jupyter. Prior to 1.0.3, standalone streamable-http mode can enforce MCP_TOKEN on /mcp while leaving the state-changing /api/connect and /api/stop management routes unauthenticated. An unauthenticated network caller can use /api/connect to replace runtime_url and document_url values and their tokens, reset ServerContext, and start a kernel client against attacker-controlled infrastructure, causing the server to send Jupyter API and WebSocket traffic to that backend. The caller can also use /api/stop to stop the current notebook kernel.…",
+    "cve_ids": [
+      "CVE-2026-77318"
+    ],
+    "discovered_at": "2026-11-19T21:34:14.587Z",
+    "extra": {
+      "classifier_hint": "NVD CVE record matched by an allow-listed AI product keyword. In scope as attack_on_ai / infra_vuln when the affected software is an AI framework, model server, agent tool or AI product; out of scope if the keyword is a false positive. Severity 2 (disclosed vulnerability) unless exploitation is confirmed (CISA KEV or vendor statement → 3). incident_date is the published date.",
+      "cvss": 7.3,
+      "kev": false,
+      "matched_keyword": "Model Context Protocol",
+      "incident_date": "2026-11-19",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "d7f729244a38112e",
+    "source_id": "nvd",
+    "origin": "seed_nvd",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77359",
+    "title": "CVE-2026-77359: Jupyter MCP Server is a Model Context Protocol server for Jupyter.",
+    "published_at": "2026-11-19",
+    "publisher": "NVD",
+    "hint": "Jupyter MCP Server is a Model Context Protocol server for Jupyter. Prior to 1.0.3, standalone streamable-http mode validates Host and Origin values for /mcp but does not apply the same browser-origin controls to the state-changing /api/connect and /api/stop management routes. A malicious website can use DNS rebinding so that its hostname resolves to a loopback, LAN, VPN, or published-container MCP listener, then send a browser-shaped request that /api/connect accepts to replace runtime_url and document_url values and start a kernel client against attacker-controlled infrastructure. The…",
+    "cve_ids": [
+      "CVE-2026-77359"
+    ],
+    "discovered_at": "2026-11-19T21:34:14.587Z",
+    "extra": {
+      "classifier_hint": "NVD CVE record matched by an allow-listed AI product keyword. In scope as attack_on_ai / infra_vuln when the affected software is an AI framework, model server, agent tool or AI product; out of scope if the keyword is a false positive. Severity 2 (disclosed vulnerability) unless exploitation is confirmed (CISA KEV or vendor statement → 3). incident_date is the published date.",
+      "cvss": 9.3,
+      "kev": false,
+      "matched_keyword": "Model Context Protocol",
+      "incident_date": "2026-11-19",
+      "ai_hint": true
     }
   }
 ]
