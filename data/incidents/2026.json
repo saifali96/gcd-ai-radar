@@ -32961,9 +32961,15 @@
         "publisher": "The Record",
         "title": "Limited reports of PHP bug exploitation emerge",
         "published_at": "2026-10-29"
+      },
+      {
+        "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+        "publisher": "The Hacker News",
+        "title": "Everything Is a Web Application, Including Your Firewall",
+        "published_at": "2026-11-19"
       }
     ],
-    "source_count": 12,
+    "source_count": 13,
     "confidence": 0.95,
     "status": "published",
     "origin": "news",
@@ -32975,10 +32981,10 @@
       "cisa-kev"
     ],
     "created_at": "2026-10-26T14:52:59.139Z",
-    "updated_at": "2026-11-13T00:11:31.354Z",
+    "updated_at": "2026-11-19T13:08:39.910Z",
     "lane": "patch",
-    "state": "closed",
-    "closed_at": "2026-11-12",
+    "state": "live",
+    "closed_at": null,
     "patch_status": "patched",
     "cve_ids": [
       "CVE-2026-109619",
@@ -33035,6 +33041,12 @@
         "title": "New reports link PHP bug exploitation to a suspected Chinese campaign targeting government affiliated servers",
         "source_url": "https://therecord.media/php2shell-successful-exploitation-reports-emerge",
         "added_at": "2026-10-29T23:23:38.250Z"
+      },
+      {
+        "date": "2026-11-19",
+        "title": "Everything Is a Web Application, Including Your Firewall",
+        "source_url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+        "added_at": "2026-11-19T13:08:39.910Z"
       }
     ],
     "action": "Upgrade PHP installations to version 8.5.12, 8.4.27, 8.3.36, 8.2.35 or later immediately.",

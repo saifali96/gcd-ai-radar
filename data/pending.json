@@ -1,1 +1,79 @@
-[]
+[
+  {
+    "key": "8e05d5806f2f8514",
+    "source_id": "securityweek",
+    "origin": "news",
+    "url": "https://securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection",
+    "title": "StepSecurity Secures $20 Million to Expand Supply Chain Protection",
+    "published_at": "2026-11-19",
+    "publisher": "SecurityWeek",
+    "hint": "The company will use the funds to accelerate the development and distribution of its security platform.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T13:04:20.618Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "96b81bd2df0df1e6",
+    "source_id": "securityweek",
+    "origin": "news",
+    "url": "https://securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks",
+    "title": "Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks",
+    "published_at": "2026-11-19",
+    "publisher": "SecurityWeek",
+    "hint": "Attackers are targeting Confluence Data Center through an Axis flaw and Apache is warning of attacks against Roller.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T13:04:20.618Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "8bb09f6a08c30bdb",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis",
+    "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
+    "published_at": "2026-11-19",
+    "publisher": "BleepingComputer",
+    "hint": "Microsoft is developing a new Edge security feature to reduce the attack surface by disabling the WebGL, WebGL2, and WebGPU APIs.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T13:04:20.696Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "62bed23fdbd17c27",
+    "source_id": "helpnetsecurity",
+    "origin": "news",
+    "url": "https://helpnetsecurity.com/2026/11/19/microsoft-agent-framework-package-pypi-compromised",
+    "title": "Credential stealer slipped into Microsoft’s official Python agent framework",
+    "published_at": "2026-11-19",
+    "publisher": "Help Net Security",
+    "hint": "Two releases of Microsoft’s official agent-framework package on the Python Package Index (PyPI) carried code that steals cloud and CI/CD credentials from developers’ systems. Agent Framework is Microsoft’s open-source toolkit for building AI agents and running them in workflows. Three supply chain security companies, StepSecurity, OX Security and Socket, caught the malicious versions and shared their analysis. “On November 17, 2026, versions 1.26.1 and 1.26.2 of the official Microsoft agent-framework package on PyPI were published … More →",
+    "cve_ids": [],
+    "discovered_at": "2026-11-19T13:04:21.094Z",
+    "extra": {
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "169693405a8708ba",
+    "source_id": "checkmarx-zero",
+    "origin": "news",
+    "url": "https://checkmarx.com/zero-post/php-rings-the-alarm-again-what-we-know-and-dont-about-todays-critical-php-security-release",
+    "title": "PHP Rings the Alarm Again: What We Know (and Don’t) About Today’s Critical PHP Security Release",
+    "published_at": "2026-11-19",
+    "publisher": "Checkmarx",
+    "hint": "Live Updates This is a developing story. We will add each update here as PHP publishes advisories, CVE identifiers, and fixed version numbers. Newest first. Time (UTC) Update 19 Nov PHP has not yet published technical details, CVE identifiers, or fixed versions. CVE-2026-115560 is reported, not confirmed, to be part of this release. TL;DR: How…",
+    "cve_ids": [
+      "CVE-2026-115560"
+    ],
+    "discovered_at": "2026-11-19T13:04:24.304Z",
+    "extra": {
+      "ai_hint": false
+    }
+  }
+]
