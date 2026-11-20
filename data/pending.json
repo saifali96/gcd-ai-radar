@@ -765,5 +765,121 @@
       "incident_date": "2026-11-19",
       "ai_hint": true
     }
+  },
+  {
+    "key": "b747ce58ac6e7d96",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september",
+    "title": "VMware patches vCenter zero-day exploited in attacks since September",
+    "published_at": "2026-11-20",
+    "publisher": "BleepingComputer",
+    "hint": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T03:14:27.959Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "1075c9e0936c434b",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers",
+    "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+    "published_at": "2026-11-19",
+    "publisher": "BleepingComputer",
+    "hint": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T03:14:27.959Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "a16f227863687c74",
+    "source_id": "hn",
+    "origin": "news",
+    "url": "https://stackbuilders.com/insights/ai-agent-authorization-that-limits-the-damage-of-prompt-injection",
+    "title": "AI Agent Authorization That Limits the Damage of Prompt Injection",
+    "published_at": "2026-11-19",
+    "publisher": "stackbuilders.com",
+    "hint": "",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T03:14:28.007Z",
+    "extra": {
+      "hn_id": "50566999",
+      "points": 2,
+      "comments": 0,
+      "query": "prompt injection",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "91e5c2c072ab3006",
+    "source_id": "darkreading",
+    "origin": "news",
+    "url": "https://darkreading.com/application-security/critical-php-flaws-code-execution-panic-php2shell",
+    "title": "Critical PHP Flaws Allow Code Execution, But Don't Panic 'PHP2Shell'-Style",
+    "published_at": "2026-11-19",
+    "publisher": "Dark Reading",
+    "hint": "November's monthly security release patches seven critical PHP flaws that should be addressed ASAP, though experts say exploitability varies and depends heavily on configuration.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T03:14:28.365Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "7515f0fe0af12d81",
+    "source_id": "darkreading",
+    "origin": "news",
+    "url": "https://darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached",
+    "title": "Second Norwegian Energy Company Breached in Two Days",
+    "published_at": "2026-11-19",
+    "publisher": "Dark Reading",
+    "hint": "No specific link has been drawn between the two incidents, though they certainly sing the same notes.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T03:14:28.365Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "fc83a0d1e9a35307",
+    "source_id": "straiker",
+    "origin": "news",
+    "url": "https://straiker.ai/blog/gpt-6-2-astra-sol-agent-security",
+    "title": "GPT-6.2 Astra vs. Sol: Features, Pricing & Security | Straiker",
+    "published_at": "2026-11-20",
+    "publisher": "Straiker",
+    "hint": "See what OpenAI's GPT-6.2 Astra and Sol offer, what they cost, and where they run, plus how to secure the AI agents your teams build on them.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T03:14:31.117Z",
+    "extra": {
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "ea292a1da6be099a",
+    "source_id": "nvd",
+    "origin": "seed_nvd",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24205",
+    "title": "CVE-2026-24205: NVIDIA TensorRT-LLM for any platform contains a vulnerability where a user may cause a race condition by running concurrent…",
+    "published_at": "2026-11-20",
+    "publisher": "NVD",
+    "hint": "NVIDIA TensorRT-LLM for any platform contains a vulnerability where a user may cause a race condition by running concurrent requests. A successful exploit of this vulnerability may lead to data tampering. CVSS 6.4 MEDIUM. Published 2026-11-20.",
+    "cve_ids": [
+      "CVE-2026-24205"
+    ],
+    "discovered_at": "2026-11-20T03:18:56.325Z",
+    "extra": {
+      "classifier_hint": "NVD CVE record matched by an allow-listed AI product keyword. In scope as attack_on_ai / infra_vuln when the affected software is an AI framework, model server, agent tool or AI product; out of scope if the keyword is a false positive. Severity 2 (disclosed vulnerability) unless exploitation is confirmed (CISA KEV or vendor statement → 3). incident_date is the published date.",
+      "cvss": 6.4,
+      "kev": false,
+      "matched_keyword": "TensorRT-LLM",
+      "incident_date": "2026-11-20",
+      "ai_hint": true
+    }
   }
 ]
