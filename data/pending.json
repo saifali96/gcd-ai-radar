@@ -259,21 +259,6 @@
     }
   },
   {
-    "key": "7008c485fa38b4e8",
-    "source_id": "thn",
-    "origin": "news",
-    "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
-    "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
-    "published_at": "2026-11-19",
-    "publisher": "The Hacker News",
-    "hint": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines. The",
-    "cve_ids": [],
-    "discovered_at": "2026-11-19T21:33:02.871Z",
-    "extra": {
-      "ai_hint": false
-    }
-  },
-  {
     "key": "6e1cc48f217d3df0",
     "source_id": "thn",
     "origin": "news",
@@ -300,6 +285,21 @@
     "cve_ids": [
       "CVE-2026-126714"
     ],
+    "discovered_at": "2026-11-19T21:33:02.871Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "7008c485fa38b4e8",
+    "source_id": "thn",
+    "origin": "news",
+    "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+    "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+    "published_at": "2026-11-19",
+    "publisher": "The Hacker News",
+    "hint": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines. The",
+    "cve_ids": [],
     "discovered_at": "2026-11-19T21:33:02.871Z",
     "extra": {
       "ai_hint": false
@@ -878,6 +878,302 @@
       "cvss": 6.4,
       "kev": false,
       "matched_keyword": "TensorRT-LLM",
+      "incident_date": "2026-11-20",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "e2f4d2b5bc6a5608",
+    "source_id": "securityweek",
+    "origin": "news",
+    "url": "https://securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million",
+    "title": "SBC Medical Group Data Breach Impacts Over 2 Million",
+    "published_at": "2026-11-20",
+    "publisher": "SecurityWeek",
+    "hint": "Threat actors accessed databases containing customer information associated with clinics in Japan.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T11:42:59.801Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "7b4d22e413dba79d",
+    "source_id": "securityweek",
+    "origin": "news",
+    "url": "https://securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak",
+    "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
+    "published_at": "2026-11-20",
+    "publisher": "SecurityWeek",
+    "hint": "The companies point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T11:42:59.802Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "b34b975a859f1753",
+    "source_id": "securityweek",
+    "origin": "news",
+    "url": "https://securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce",
+    "title": "Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE",
+    "published_at": "2026-11-20",
+    "publisher": "SecurityWeek",
+    "hint": "Tracked as CVE-2026-132825, the bug is a heap-based buffer overflow that could lead to remote code execution (RCE).",
+    "cve_ids": [
+      "CVE-2026-132825"
+    ],
+    "discovered_at": "2026-11-20T11:42:59.802Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "8787532169b4ac84",
+    "source_id": "securityweek",
+    "origin": "news",
+    "url": "https://securityweek.com/n-able-blames-service-disruption-on-cyberattack",
+    "title": "N-able Blames Service Disruption on Cyberattack",
+    "published_at": "2026-11-20",
+    "publisher": "SecurityWeek",
+    "hint": "The incident affected Mail Assure and SpamExperts Hosted Cloud and could have led to credential theft.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T11:42:59.802Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "147510ad1dda0a8a",
+    "source_id": "securityweek",
+    "origin": "news",
+    "url": "https://securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services",
+    "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
+    "published_at": "2026-11-20",
+    "publisher": "SecurityWeek",
+    "hint": "The Commission took certain services offline to contain the incident, but it has no evidence of a data breach.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T11:42:59.802Z",
+    "extra": {
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "b6dced9e8be0bdef",
+    "source_id": "thn",
+    "origin": "news",
+    "url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+    "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+    "published_at": "2026-11-20",
+    "publisher": "The Hacker News",
+    "hint": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use automation and AI to find and exploit unsupported edge devices faster than ever,\" SonicWall said. \"We expect internet-facing Gen 6 firewalls to be actively",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T11:42:59.822Z",
+    "extra": {
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "dc6901c8a6d8ff52",
+    "source_id": "thn",
+    "origin": "news",
+    "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+    "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+    "published_at": "2026-11-20",
+    "publisher": "The Hacker News",
+    "hint": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
+    "cve_ids": [
+      "CVE-2026-123890"
+    ],
+    "discovered_at": "2026-11-20T11:42:59.822Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "c9ddefa65f5030a8",
+    "source_id": "thn",
+    "origin": "news",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+    "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+    "published_at": "2026-11-20",
+    "publisher": "The Hacker News",
+    "hint": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway",
+    "cve_ids": [
+      "CVE-2026-76466"
+    ],
+    "discovered_at": "2026-11-20T11:42:59.822Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "fa700a4eb8ceffe8",
+    "source_id": "thn",
+    "origin": "news",
+    "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+    "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+    "published_at": "2026-11-20",
+    "publisher": "The Hacker News",
+    "hint": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T11:42:59.822Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "ba74506a96acc2d3",
+    "source_id": "thn",
+    "origin": "news",
+    "url": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+    "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+    "published_at": "2026-11-20",
+    "publisher": "The Hacker News",
+    "hint": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while retaining ClickFix and signed binary sideloading techniques,\" Blackpoint",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T11:42:59.822Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "2034edc430098f81",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws",
+    "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+    "published_at": "2026-11-20",
+    "publisher": "BleepingComputer",
+    "hint": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T11:42:59.916Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "0e0be2076f83e2d8",
+    "source_id": "helpnetsecurity",
+    "origin": "news",
+    "url": "https://helpnetsecurity.com/2026/11/20/transport-for-london-oyster-photocard-data-breach",
+    "title": "265,000 Oyster photocard customers’ data exposed in Transport for London breach",
+    "published_at": "2026-11-20",
+    "publisher": "Help Net Security",
+    "hint": "Account details belonging to some 265,000 Oyster photocard holders may have been compromised in a breach of the photocard website, Transport for London (TfL) has warned. They include children with Zip cards and Londoners with the 60+ London Oyster photocard. TfL says it spotted suspicious activity on the site on 16 November and took the photocard system offline to limit access. “While we acted quickly to restrict this, this activity has unfortunately resulted in unauthorised … More →",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T11:43:00.086Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "9aea460f56ede8c0",
+    "source_id": "helpnetsecurity",
+    "origin": "news",
+    "url": "https://helpnetsecurity.com/2026/11/20/european-commission-ai-generated-cyberattack-publicly-available-tool",
+    "title": "European Commission confirms AI-generated cyberattack disrupted its systems",
+    "published_at": "2026-11-20",
+    "publisher": "Help Net Security",
+    "hint": "The European Commission has confirmed it was hit by a cyberattack that misused a publicly available AI tool and forced the institution to take several of its applications offline. Commission spokesperson Thomas Regnier gave the confirmation at Thursday’s midday press briefing in Brussels. Politico was the first to report the attack, in an exclusive published earlier that day. Reporters used the Q&A session to press Regnier on which systems were hit, whether staff data was … More →",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T11:43:00.086Z",
+    "extra": {
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "26fd2f80479c73b6",
+    "source_id": "helpnetsecurity",
+    "origin": "news",
+    "url": "https://helpnetsecurity.com/2026/11/20/ai-prompt-injection-red-team",
+    "title": "Your AI red team may be finding the same prompt injection thousands of times",
+    "published_at": "2026-11-20",
+    "publisher": "Help Net Security",
+    "hint": "AI agents retrained on a bigger pile of prompt injection attacks came out easier to hijack in three of four tests run by researchers at the University of Waterloo, Zhejiang University and KTH Royal Institute of Technology. The automated red-teaming tool that found more working attacks produced the weaker defense. Prompt injection purple-teaming workflow (Source: Research paper) Someone hides instructions in an email, a web page or a tool’s output, and the AI agent that … More →",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T11:43:00.086Z",
+    "extra": {
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "d3f93292594d13f0",
+    "source_id": "helpnetsecurity",
+    "origin": "news",
+    "url": "https://helpnetsecurity.com/2026/11/20/ai-agent-api-security-production",
+    "title": "AI agent API security hasn’t caught up with agents already running in production",
+    "published_at": "2026-11-20",
+    "publisher": "Help Net Security",
+    "hint": "Postman asked nearly 9,000 developers, architects and executives how they’re handling AI agents, and the answers tell a familiar story. Companies put the new thing to work first and left the question of who holds the keys for later. A quarter of the organizations that answered already have agents calling their APIs in production. Source: Postman The keys are where it gets uncomfortable. About four in ten respondents haven’t worked out how credentials and identity … More →",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T11:43:00.086Z",
+    "extra": {
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "6a2597afdf90d3f4",
+    "source_id": "helpnetsecurity",
+    "origin": "news",
+    "url": "https://helpnetsecurity.com/2026/11/20/network-outage-recovery-resilience",
+    "title": "Most CIOs and CISOs expect to contain attacks, though few can reach their gear right away",
+    "published_at": "2026-11-20",
+    "publisher": "Help Net Security",
+    "hint": "Most organizations can’t quickly get secure management access to their own critical network infrastructure once the primary network goes down. Opengear surveyed 514 CIOs and CISOs and only a small share said they could get that access immediately or close to it. That gap bites hardest during a ransomware attack or a bad update, the moments when someone has to log in, cut off what’s compromised and bring services back. If the only path to … More →",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T11:43:00.086Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "e16e6ae134e9fa33",
+    "source_id": "hibp",
+    "origin": "news",
+    "url": "https://haveibeenpwned.com/Breach/Careers360",
+    "title": "Careers360 data breach exposes 3,609,421 accounts",
+    "published_at": "2026-11-20",
+    "publisher": "Have I Been Pwned",
+    "hint": "In November 2026, data allegedly taken from the Indian education and careers platform Careers360 appeared on a public hacking forum . The 22M records included 3.6M unique email addresses alongside names, phone numbers, genders and caste categories, and most also contained students' entrance exam results, including ranks and marks.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T11:43:03.710Z",
+    "extra": {
+      "classifier_hint": "Have I Been Pwned lists a confirmed breach of Careers360 (careers360.com): 3,609,421 accounts, breach date 2026-11-14, data exposed: Academic records, Castes, Email addresses, Genders, Names, Phone numbers. A confirmed breach of a named service; severity 4 when personal data was exposed; AI plays no role unless the service is an AI product.",
+      "hibp": true,
+      "incident_date": "2026-11-14",
+      "pwn_count": 3609421,
+      "data_classes": [
+        "Academic records",
+        "Castes",
+        "Email addresses",
+        "Genders",
+        "Names",
+        "Phone numbers"
+      ],
+      "domain": "careers360.com",
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "05b8e81a2738305c",
+    "source_id": "nvd",
+    "origin": "seed_nvd",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133631",
+    "title": "CVE-2026-133631: FlowIntel contains multiple security flaws in its note variable resolution, chatbot API tooling, and AI report generation.",
+    "published_at": "2026-11-20",
+    "publisher": "NVD",
+    "hint": "FlowIntel contains multiple security flaws in its note variable resolution, chatbot API tooling, and AI report generation.\n\n- Note variable references (e.g. cross-case or cross-task lookups) were resolved using the viewing user's privileges rather than the destination case's audience. An authenticated user with access to a shared or imported note could embed references to private cases, causing sensitive case data to be pulled into AI report requests, exports, and MISP sends without the referenced case's audience having granted read access.\n\n- The chatbot API tool permitted the language model…",
+    "cve_ids": [
+      "CVE-2026-133631"
+    ],
+    "discovered_at": "2026-11-20T11:43:09.310Z",
+    "extra": {
+      "classifier_hint": "NVD CVE record matched by an allow-listed AI product keyword. In scope as attack_on_ai / infra_vuln when the affected software is an AI framework, model server, agent tool or AI product; out of scope if the keyword is a false positive. Severity 2 (disclosed vulnerability) unless exploitation is confirmed (CISA KEV or vendor statement → 3). incident_date is the published date.",
+      "cvss": 7.1,
+      "kev": false,
+      "matched_keyword": "Ollama",
       "incident_date": "2026-11-20",
       "ai_hint": true
     }
