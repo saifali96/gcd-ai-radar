@@ -898,6 +898,21 @@
     }
   },
   {
+    "key": "147510ad1dda0a8a",
+    "source_id": "securityweek",
+    "origin": "news",
+    "url": "https://securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services",
+    "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
+    "published_at": "2026-11-20",
+    "publisher": "SecurityWeek",
+    "hint": "The Commission took certain services offline to contain the incident, but it has no evidence of a data breach.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T11:42:59.802Z",
+    "extra": {
+      "ai_hint": true
+    }
+  },
+  {
     "key": "7b4d22e413dba79d",
     "source_id": "securityweek",
     "origin": "news",
@@ -945,21 +960,6 @@
     }
   },
   {
-    "key": "147510ad1dda0a8a",
-    "source_id": "securityweek",
-    "origin": "news",
-    "url": "https://securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services",
-    "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
-    "published_at": "2026-11-20",
-    "publisher": "SecurityWeek",
-    "hint": "The Commission took certain services offline to contain the incident, but it has no evidence of a data breach.",
-    "cve_ids": [],
-    "discovered_at": "2026-11-20T11:42:59.802Z",
-    "extra": {
-      "ai_hint": true
-    }
-  },
-  {
     "key": "b6dced9e8be0bdef",
     "source_id": "thn",
     "origin": "news",
@@ -992,6 +992,21 @@
     }
   },
   {
+    "key": "fa700a4eb8ceffe8",
+    "source_id": "thn",
+    "origin": "news",
+    "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+    "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+    "published_at": "2026-11-20",
+    "publisher": "The Hacker News",
+    "hint": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T11:42:59.822Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
     "key": "c9ddefa65f5030a8",
     "source_id": "thn",
     "origin": "news",
@@ -1003,21 +1018,6 @@
     "cve_ids": [
       "CVE-2026-76466"
     ],
-    "discovered_at": "2026-11-20T11:42:59.822Z",
-    "extra": {
-      "ai_hint": false
-    }
-  },
-  {
-    "key": "fa700a4eb8ceffe8",
-    "source_id": "thn",
-    "origin": "news",
-    "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-    "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-    "published_at": "2026-11-20",
-    "publisher": "The Hacker News",
-    "hint": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
-    "cve_ids": [],
     "discovered_at": "2026-11-20T11:42:59.822Z",
     "extra": {
       "ai_hint": false
@@ -1174,6 +1174,809 @@
       "cvss": 7.1,
       "kev": false,
       "matched_keyword": "Ollama",
+      "incident_date": "2026-11-20",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "14b1eb3d9075aa79",
+    "source_id": "securityweek",
+    "origin": "news",
+    "url": "https://securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign",
+    "title": "WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign",
+    "published_at": "2026-11-20",
+    "publisher": "SecurityWeek",
+    "hint": "Tracked as CVE-2026-23871, the vulnerability was found by WhatsApp’s security team, and it may have been used to make scam messages more credible.",
+    "cve_ids": [
+      "CVE-2026-23871"
+    ],
+    "discovered_at": "2026-11-20T20:17:05.609Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "730342ffea62a465",
+    "source_id": "securityweek",
+    "origin": "news",
+    "url": "https://securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit",
+    "title": "In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit",
+    "published_at": "2026-11-20",
+    "publisher": "SecurityWeek",
+    "hint": "Noteworthy stories that might have slipped under the radar: EU adds NoName057(16) to cyber sanctions list, malware targets CACs left in personal computers, Gemini agents targeted Epoch AI.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:05.609Z",
+    "extra": {
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "8e6cb802468ebce4",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server",
+    "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+    "published_at": "2026-11-20",
+    "publisher": "BleepingComputer",
+    "hint": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:05.661Z",
+    "extra": {
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "8aa9f2e23f66897b",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info",
+    "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+    "published_at": "2026-11-20",
+    "publisher": "BleepingComputer",
+    "hint": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:05.661Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "6985eaf9aae7ac79",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind",
+    "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
+    "published_at": "2026-11-20",
+    "publisher": "BleepingComputer",
+    "hint": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility, identify security risks, and simplify secure password sharing.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:05.661Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "d07c04090412c3a0",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data",
+    "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
+    "published_at": "2026-11-20",
+    "publisher": "BleepingComputer",
+    "hint": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:05.661Z",
+    "extra": {
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "23f48ad05290d59c",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage",
+    "title": "N-able says recent security breach led to major service outage",
+    "published_at": "2026-11-20",
+    "publisher": "BleepingComputer",
+    "hint": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:05.661Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "c21f2f095f9f04c9",
+    "source_id": "therecord",
+    "origin": "news",
+    "url": "https://therecord.media/dozens-of-credit-unions-hit-by-supplier-breach",
+    "title": "Dozens of credit unions hit by supplier breach that went unnoticed for six weeks",
+    "published_at": "2026-11-20",
+    "publisher": "The Record",
+    "hint": "Ireland’s Data Protection Commission told Recorded Future News on Thursday it had received more than 40 breach notifications from credit unions that used the Belfast-based company as a data processor.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:05.887Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "cd038ca0a29b9504",
+    "source_id": "therecord",
+    "origin": "news",
+    "url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+    "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
+    "published_at": "2026-11-20",
+    "publisher": "The Record",
+    "hint": "A China-linked threat actor used the open source AI penetration testing tool Cairn to persistently attack two universities, and in one case, possibly discover a zero-day bug, researchers said.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:05.887Z",
+    "extra": {
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "9dbbebdeb6a3a85d",
+    "source_id": "thn",
+    "origin": "news",
+    "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+    "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+    "published_at": "2026-11-20",
+    "publisher": "The Hacker News",
+    "hint": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan. \"Bazuka is a full malware framework,",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:05.909Z",
+    "extra": {
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "6cc616c5c6e76f97",
+    "source_id": "thn",
+    "origin": "news",
+    "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+    "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+    "published_at": "2026-11-20",
+    "publisher": "The Hacker News",
+    "hint": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4. The issue could",
+    "cve_ids": [
+      "CVE-2026-23871"
+    ],
+    "discovered_at": "2026-11-20T20:17:05.909Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "f80afcc478575741",
+    "source_id": "thn",
+    "origin": "news",
+    "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+    "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+    "published_at": "2026-11-20",
+    "publisher": "The Hacker News",
+    "hint": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled. Fixed kernels shipped",
+    "cve_ids": [
+      "CVE-2026-99312"
+    ],
+    "discovered_at": "2026-11-20T20:17:05.909Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "3f7de2b9270b967c",
+    "source_id": "helpnetsecurity",
+    "origin": "news",
+    "url": "https://helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited",
+    "title": "VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)",
+    "published_at": "2026-11-20",
+    "publisher": "Help Net Security",
+    "hint": "A suspected China-nexus espionage group tracked as Armory Castle (formerly UNC5221) has been exploiting a VMware vCenter zero-day since at least early September, more than two months before Broadcom released a fix, Google Threat Intelligence Group (GTIG) revealed. The vulnerability (CVE-2026-123890) carries a CVSS score of 9.8 and allows a remote, unauthenticated attacker to obtain an administrator session on vCenter Server, which organizations use to manage their VMware servers and virtual machines. Broadcom fixed it … More →",
+    "cve_ids": [
+      "CVE-2026-123890"
+    ],
+    "discovered_at": "2026-11-20T20:17:06.053Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "3ea993db7e3c60d1",
+    "source_id": "openai",
+    "origin": "news",
+    "url": "https://openai.com/index/combatting-adversarial-distillation",
+    "title": "Combatting adversarial distillation",
+    "published_at": "2026-11-20",
+    "publisher": "OpenAI",
+    "hint": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:06.182Z",
+    "extra": {
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "25eee472f0aba029",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.25086",
+    "title": "Living off the Local Model: Abusing Browser-Embedded Language Models for Post-Exploitation",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "Browsers now ship local language models to ordinary endpoints. Google includes Gemini Nano in Chrome to enable productivity features such as summarization, with inference running entirely on the device. These browser-embedded models provide new living-off-the-land opportunities for attackers, each instance a potential post-exploitation engine already installed, signed by the vendor, and invisible to network monitoring. The Gemini model is multimodal, capable of processing files, analyzing screenshots, or conversing with an attacker. We show that…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.274Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "70127455e8b4aefd",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.24989",
+    "title": "Signed, Valid, and Unauthorized: Authority Closure at the Trust Boundary Between Agent Commerce Protocols and Crypto Wallets",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "Agent commerce protocols let software agents pay with stablecoins. A buyer approves a payee, asset, spending cap and time window, but the wallet signs an object whose effects depend on the contracts that consume it. Matching the displayed fields or simulating one payment can miss transfers that the signed object still permits. We define authority closure as the set of transfer sequences that holding the signed object can enable. A wallet object respects the mandate when every such sequence meets the buyer's constraints. We characterize when…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.274Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "231bbb6daa44d8c6",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.25056",
+    "title": "Attacks and Defenses in Decentralized Multi-Agent Systems with Hop-by-Hop Task Decomposition and Delegation",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "Decentralized multi-agent LLM systems enable independently administered agents, each with its own operator, model, memory, and configuration, to collaborate on complex tasks without centralized coordination. Agents autonomously decompose tasks, execute subtasks and delegate remaining work to peers, enabling scalability and eliminating single points of failure. However, decentralization also introduces significant security challenges, as no single entity has complete visibility into task execution or the authority to enforce correct behavior…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.274Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "d309f6169a82740f",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.25470",
+    "title": "ToolPulse: Side-Channel Eavesdropping on Tool-Using LLM Agents",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "Large language models (LLMs) are increasingly deployed as agents that translate user requests into sequences of local tool invocations. While prior cache-based side-channel attacks target the locally deployed models, they typically require the adversary to share model-related components or hardware resources with the victim's inference process. These assumptions do not apply to the predominant agentic settings, in which commercial LLMs execute on vendor-controlled infrastructure. We show that agentic execution exposes a more practical attack…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.275Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "51c9e8f0e8dadecd",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.25945",
+    "title": "BlockJack: Cross-Tenant Redirection Fault Attacks on Paged KV Cache Address Translation in LLM Serving",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "Large language model (LLM) serving frameworks accelerate inference by retaining previously computed states in a key-value (KV) cache. Paged serving frameworks such as vLLM organize this cache through block tables analogous to OS page tables, which map each request's logical KV blocks to physical KV blocks, forming a software-managed address translation layer. Although fault attacks such as Rowhammer have exploited OS page tables to redirect memory accesses, prior fault attacks on LLMs have largely targeted the data plane, i.e., model weights or…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.275Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "f22d4105194793e7",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.26117",
+    "title": "ChronoPatch: Black-Box Energy-Latency Attacks on Vision-Language Models",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "Vision-language models (VLMs) are increasingly deployed as generative inference services, where autoregressive decoding makes response length a key determinant of latency and computational cost. This creates an availability risk: adversarial visual inputs can prolong generation and increase serving overhead. Existing energy-latency attacks typically rely on gradients, logits, or token-level feedback, leaving open whether such risks persist when an attacker observes only the final response. We present ChronoPatch, a black-box attack that induces…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.275Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "101d81103ec73f3d",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.26298",
+    "title": "DailySafe: Benchmarking Dynamic Safety Awareness in Everyday Multi-Turn Multimodal Interactions",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "As multimodal large language models (MLLMs) become increasingly integrated into everyday life, their ability to provide safe and reliable assistance in realistic daily activities remains insufficiently explored. Existing safety benchmarks primarily focus on isolated harmful requests or adversarial scenarios, overlooking the safety risks that may arise as ordinary tasks unfold. In practice, users pursue legitimate goals through multi-turn, multimodal interactions, where seemingly benign requests may become safety-critical when considered…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.275Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "c86b62bf64e38e05",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.26525",
+    "title": "Backtracking Agent Applications Security Incidents",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "Agent applications are increasingly deployed, yet agent-specific attacks pose real threats to them. Upon a security incident, organizations backtrack to identify the CEP (compromise entry point), remediate the damage, and prevent its recurrence. The main artifacts available for backtracking are trajectory logs, which record agent functionalities, and source code; app(lication)-specific function call logs are often fairly limited. However, trajectory logs are at the agent functionality abstraction layer, while the CEP candidates are function…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.275Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "cca794af25e336f0",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.25324",
+    "title": "Verified Netlist-to-RTL Recovery with LLM Agents",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "Gate-level netlists circulate among IP integrators and foundries and can be extracted from chips. Reverse engineering them into readable register-transfer-level (RTL) code would help an adversary understand and modify a design, but remains difficult because word-level operations are scattered across many gates. Large language models (LLMs) can write and optimize RTL, but often fail to recover it from a whole netlist. We propose LOCA (LOgic Cone Attack), an LLM-based attack that divides an anonymized netlist into logic cones, has parallel agents…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.275Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "1c1c0d05263f3864",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.25718",
+    "title": "Hardening JavaScript Programs against LLM-Based Vulnerability Detection",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "JavaScript programs are often distributed as source code, so attackers can analyze them for vulnerabilities. LLM-based vulnerability detection agents now make this analysis much easier. To mitigate this emerging threat, we present AntiAgent, a defense that lets developers harden their programs against such detection agents. AntiAgent transforms a program before release to impede an agent's analysis. To find effective transformations, AntiAgent evolves a corpus of programs with known vulnerabilities and traces how a detection agent analyzes each…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.275Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "fe231af6f51dd38c",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.25599",
+    "title": "Tether: Verified Stateful Policy Engine for System-Level Monitoring of Agents",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "Autonomous AI agents are increasingly deployed for long-running tasks that execute arbitrary shell commands or programs. However, these actions can result in unauthorized network requests or persistent, malicious changes to the user's file system, processes, or privileges. Existing defense mechanisms rely on either LLM-based monitors, which lack provable safety guarantees, or stateless policy enforcement layers, which miss multi-step data flows and execution side-effects unmodeled by the policy language (e.g., network calls initiated inside a…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.275Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "42fb814b60b244fc",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.25790",
+    "title": "On the Reliability of CyberGym Evaluation: Task Material Consistency and Reference-Target Identity",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "CyberGym evaluates vulnerability reproduction by checking whether a proof-of-concept input (PoC) crashes a vulnerable program version but not a fixed version. Interpreting this differential pass as successful reproduction requires consistent task materials and evidence that the PoC triggers the intended defect. We examine these requirements through a material audit of all 1,507 CyberGym tasks and an identity assessment of the final PoCs from one complete Level-1 GLM-5.3 run. Taking the defect associated with each reference crash report as the…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.275Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "36f930941b9c3943",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.26131",
+    "title": "SCARVA: Interpretable Agentic Reasoning in Software Supply-Chain Analysis",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "Complex applications may inherit security vulnerabilities from their dependencies, though a vulnerable dependency does not necessarily endanger the application. Existing tools flag dependencies associated with public vulnerabilities, and more advanced ones analyze the call graph to assess whether the vulnerable code is reachable. However, these approaches are limited to specific programming languages and ecosystems. LLM agents are promising candidates for this task, yet they hallucinate, take shortcuts, and reward hack. As these behaviors are…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.275Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "f3861ac79d4dc86a",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.26094",
+    "title": "Phantom of the Masquerade: Graph Neural Network-Based Detection of Masquerade Attacks in Controller Area Networks",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "The lack of built-in security in controller area networks (CANs) exposes modern vehicles and industrial systems to masquerade attacks that can compromise safety and reliability. These attacks inject malicious messages that mimic legitimate communication patterns, making them difficult to detect using existing intrusion detection systems (IDS). Prior graph-based IDS approaches often rely on shallow embeddings that decouple representation learning from classification, which may limit their ability to fully exploit structural and signal-level…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.275Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "ec316cce63e70514",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.25809",
+    "title": "ALIoTh: Orchestrating Multi-Agent LLMs for Autonomous IoT Penetration Testing",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "Penetration testing in Internet of Things (IoT) environments, especially those composed of various different devices, e.g., smart plugs, smart cameras, and smart doors, presents great challenges across the phases of information gathering, attack surface enumeration, privilege escalation, and lateral movement. This paper introduces ALIoTh, a multi-agent, workflow-driven penetration testing framework that integrates Large Language Models agents within a Self-Retrieval-Augmented Generation (Self-RAG) architecture to autonomously identify and…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.275Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "f1c3ab95da2d82ae",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.25412",
+    "title": "ChainAgent: Automated Chainable Vulnerability Discovery in PHP Web Applications",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "High-impact attacks on PHP web applications often chain limited-capability vulnerabilities with other flaws or intended behaviors. Discovering these chains requires identifying flaws and the dependencies enabling capability composition. Existing vulnerability discovery techniques analyze flaws in isolation, while attack planning assumes known components. This separation makes it difficult to discover previously unknown components whose security relevance becomes apparent only through their potential roles in an exploit chain. We present…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.275Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "deae29e5de8c05f1",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.25832",
+    "title": "RAVEN: A Self-RAG Based Agent for Threat Classification and Response",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "Security event analysis in large enterprises can be overwhelming, as each alert typically requires manual in- spection by human operators. This process is time-consuming and prone to inconsistencies, especially in high-volume Secu- rity Operations Center (SOC) environments. In this work- in-progress paper, we present RAVEN: Retrieval-Augmented Vulnerability & Event aNalysis, an agentic framework designed to support SOC analysts by automating the initial stages of alert investigation. The proposed system leverages a Self- Reflective…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.275Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "bd055369dbe5e677",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.26601",
+    "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "LLM-based agents are becoming increasingly capable at discovering, validating and patching vulnerabilities in real software, and vendors and researchers report that this is already changing how vulnerabilities are found and fixed. These claims, however, are scattered across papers, vendor reports and disclosures and are rarely comparable. We introduce a framework that rates these capabilities on an autonomy scale modeled on the levels of driving automation, and qualifies each claim by its correctness, its availability and the strength of its…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.276Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "new",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "b56a0b995e5f5d90",
+    "source_id": "arxiv-cscr",
+    "origin": "news",
+    "url": "https://arxiv.org/abs/2611.25669",
+    "title": "Ask in the Crowd: Differentially Private LLM Inference via Dummy-Augmented Shuffling",
+    "published_at": "2026-11-20",
+    "publisher": "arXiv",
+    "hint": "Large language models are increasingly deployed as LLM-as-a-Service (LLMaaS), where user queries are sent to remote LLMs for inference, raising severe privacy concerns about the exposure of sensitive user inputs. Differentially private inference mitigates these risks by injecting noise into input embeddings. However, existing methods struggle to balance privacy and utility, as stronger privacy protection often leads to substantial accuracy degradation in LLM inference. In this work, we propose DP-SPD, a differentially private LLM inference…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.276Z",
+    "extra": {
+      "classifier_hint": "arXiv preprint (research paper). Severity 1 unless the paper documents confirmed real-world exploitation. In scope only if it demonstrates an attack, vulnerability or abuse of AI systems, or AI used offensively; defence-only or benchmark papers are out of scope.",
+      "announce_type": "cross",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "e605fc880eac45b8",
+    "source_id": "kev",
+    "origin": "seed_nvd",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-42884",
+    "title": "CVE-2025-42884: SAP NetWeaver — SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+    "published_at": "2026-11-20",
+    "publisher": "CISA",
+    "hint": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations. Added to the CISA Known Exploited Vulnerabilities catalog on 2026-11-20: exploitation confirmed. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics…",
+    "cve_ids": [
+      "CVE-2025-42884"
+    ],
+    "discovered_at": "2026-11-20T20:17:11.363Z",
+    "extra": {
+      "classifier_hint": "CISA KEV entry: exploitation in the wild is confirmed, so this is at least severity 3, lane patch, and clears the curation bar (newsworthy). attack_on_ai only when the product is an AI system, framework or tool; otherwise not_ai with categories [general]. patch_status from the required action: apply updates means patched, mitigations means partial.",
+      "kev": true,
+      "incident_date": "2026-11-20",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "due_date": "2026-11-23",
+      "ransomware": false,
+      "vendor": "SAP",
+      "product": "NetWeaver",
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "1e89f57d0c0f6df8",
+    "source_id": "kev",
+    "origin": "seed_nvd",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-76466",
+    "title": "CVE-2026-76466: Cisco Expressway Series — Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+    "published_at": "2026-11-20",
+    "publisher": "CISA",
+    "hint": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service. Added to the CISA Known Exploited Vulnerabilities catalog on 2026-11-20: exploitation confirmed. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes).…",
+    "cve_ids": [
+      "CVE-2026-76466"
+    ],
+    "discovered_at": "2026-11-20T20:17:11.363Z",
+    "extra": {
+      "classifier_hint": "CISA KEV entry: exploitation in the wild is confirmed, so this is at least severity 3, lane patch, and clears the curation bar (newsworthy). attack_on_ai only when the product is an AI system, framework or tool; otherwise not_ai with categories [general]. patch_status from the required action: apply updates means patched, mitigations means partial.",
+      "kev": true,
+      "incident_date": "2026-11-20",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "due_date": "2026-11-23",
+      "ransomware": false,
+      "vendor": "Cisco",
+      "product": "Expressway Series",
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "b97eb383605de4c6",
+    "source_id": "kev",
+    "origin": "seed_nvd",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-123890",
+    "title": "CVE-2026-123890: Broadcom VMware vCenter — VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+    "published_at": "2026-11-20",
+    "publisher": "CISA",
+    "hint": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system. Added to the CISA Known Exploited Vulnerabilities catalog on 2026-11-20: exploitation confirmed. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage…",
+    "cve_ids": [
+      "CVE-2026-123890"
+    ],
+    "discovered_at": "2026-11-20T20:17:11.363Z",
+    "extra": {
+      "classifier_hint": "CISA KEV entry: exploitation in the wild is confirmed, so this is at least severity 3, lane patch, and clears the curation bar (newsworthy). attack_on_ai only when the product is an AI system, framework or tool; otherwise not_ai with categories [general]. patch_status from the required action: apply updates means patched, mitigations means partial.",
+      "kev": true,
+      "incident_date": "2026-11-20",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines",
+      "due_date": "2026-11-23",
+      "ransomware": false,
+      "vendor": "Broadcom",
+      "product": "VMware vCenter",
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "dd12a24b01835ed0",
+    "source_id": "hibp",
+    "origin": "news",
+    "url": "https://haveibeenpwned.com/Breach/TooLost",
+    "title": "Too Lost data breach exposes 724,323 accounts",
+    "published_at": "2026-11-20",
+    "publisher": "Have I Been Pwned",
+    "hint": "In November 2026, an unauthorised party claimed to have obtained data from the music distributor for independent artists, Too Lost. The data contained 724k unique email addresses belonging to artists, their collaborators and fans. Some records also contained bcrypt password hashes, while a small subset included partial credit card data (last 4 digits and card type), identity verification information (in some cases, passport, driver's licence or national ID numbers), and payouts made to artists. Too Lost advised that its investigation remains ongoing, external forensic specialists have been…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:11.587Z",
+    "extra": {
+      "classifier_hint": "Have I Been Pwned lists a confirmed breach of Too Lost (toolost.com): 724,323 accounts, breach date 2026-11-02, data exposed: Dates of birth, Driver's licenses, Email addresses, Government issued IDs, IP addresses, Names, Partial credit card data, Passport numbers, Passwords, Payment histories, Physical addresses, Places of birth, Social media profiles, Usernames. A confirmed breach of a named service; severity 4 when personal data was exposed; AI plays no role unless the service is an AI product.",
+      "hibp": true,
+      "incident_date": "2026-11-02",
+      "pwn_count": 724323,
+      "data_classes": [
+        "Dates of birth",
+        "Driver's licenses",
+        "Email addresses",
+        "Government issued IDs",
+        "IP addresses",
+        "Names",
+        "Partial credit card data",
+        "Passport numbers",
+        "Passwords",
+        "Payment histories",
+        "Physical addresses",
+        "Places of birth",
+        "Social media profiles",
+        "Usernames"
+      ],
+      "domain": "toolost.com",
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "46135a211f00e783",
+    "source_id": "nvd",
+    "origin": "seed_nvd",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133875",
+    "title": "CVE-2026-133875: one-hub through 0.14.27 contains a server-side request forgery vulnerability in GetImageFromUrl in common/image/image.go that…",
+    "published_at": "2026-11-20",
+    "publisher": "NVD",
+    "hint": "one-hub through 0.14.27 contains a server-side request forgery vulnerability in GetImageFromUrl in common/image/image.go that fetches vision chat image_url values without destination restrictions. Attackers holding a standard non-admin API token can send crafted /v1/chat/completions requests via Claude, OpenRouter or Ollama providers to reach internal services or cloud metadata endpoints. CVSS 5.3 MEDIUM. Published 2026-11-20.",
+    "cve_ids": [
+      "CVE-2026-133875"
+    ],
+    "discovered_at": "2026-11-20T20:17:18.093Z",
+    "extra": {
+      "classifier_hint": "NVD CVE record matched by an allow-listed AI product keyword. In scope as attack_on_ai / infra_vuln when the affected software is an AI framework, model server, agent tool or AI product; out of scope if the keyword is a false positive. Severity 2 (disclosed vulnerability) unless exploitation is confirmed (CISA KEV or vendor statement → 3). incident_date is the published date.",
+      "cvss": 5.3,
+      "kev": false,
+      "matched_keyword": "Ollama",
+      "incident_date": "2026-11-20",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "0be690a4d27ad801",
+    "source_id": "hn",
+    "origin": "news",
+    "url": "https://theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
+    "title": "Chinese attackers used AI agents to find and exploit a university zero-day",
+    "published_at": "2026-11-20",
+    "publisher": "The Register",
+    "hint": "",
+    "cve_ids": [],
+    "discovered_at": "2026-11-20T20:17:19.735Z",
+    "extra": {
+      "hn_id": "50578778",
+      "points": 2,
+      "comments": 0,
+      "query": "zero-day",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "3656afb9dcb1c76d",
+    "source_id": "nvd",
+    "origin": "seed_nvd",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133710",
+    "title": "CVE-2026-133710: llama.cpp b11003 before b12556 contains an integer overflow in the hrm_text loader load_arch_hparams() that allows attackers to…",
+    "published_at": "2026-11-20",
+    "publisher": "NVD",
+    "hint": "llama.cpp b11003 before b12556 contains an integer overflow in the hrm_text loader load_arch_hparams() that allows attackers to bypass the block count check using crafted GGUF metadata. Attackers can supply a GGUF model whose layer factors wrap modulo 2^32, causing load_arch_tensors() to write tensor pointers past model.layers, corrupting heap memory and potentially enabling code execution. CVSS 8.5 HIGH. Published 2026-11-20.",
+    "cve_ids": [
+      "CVE-2026-133710"
+    ],
+    "discovered_at": "2026-11-20T20:18:04.575Z",
+    "extra": {
+      "classifier_hint": "NVD CVE record matched by an allow-listed AI product keyword. In scope as attack_on_ai / infra_vuln when the affected software is an AI framework, model server, agent tool or AI product; out of scope if the keyword is a false positive. Severity 2 (disclosed vulnerability) unless exploitation is confirmed (CISA KEV or vendor statement → 3). incident_date is the published date.",
+      "cvss": 8.5,
+      "kev": false,
+      "matched_keyword": "llama.cpp",
+      "incident_date": "2026-11-20",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "1778656ae05bd4d8",
+    "source_id": "nvd",
+    "origin": "seed_nvd",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77350",
+    "title": "CVE-2026-77350: pmo-platform is a modular PMO and release-management platform for Claude Code.",
+    "published_at": "2026-11-20",
+    "publisher": "NVD",
+    "hint": "pmo-platform is a modular PMO and release-management platform for Claude Code. Prior to 3.69.1, core/hooks/block-credential-reads.sh, core/hooks/block-egress.sh, core/hooks/block-fs-boundary.sh, and core/hooks/block-mcp-writes.sh pin PATH to /usr/bin:/bin, hard-code jq as /usr/bin/jq, and return success when jq is unavailable there. On systems where jq exists only in a Homebrew path, including affected pre-Sequoia or Homebrew-only macOS installations, the hooks can skip credential-read, network-egress, filesystem-boundary, and MCP-write controls. Native deny rules independently protect some…",
+    "cve_ids": [
+      "CVE-2026-77350"
+    ],
+    "discovered_at": "2026-11-20T20:20:31.515Z",
+    "extra": {
+      "classifier_hint": "NVD CVE record matched by an allow-listed AI product keyword. In scope as attack_on_ai / infra_vuln when the affected software is an AI framework, model server, agent tool or AI product; out of scope if the keyword is a false positive. Severity 2 (disclosed vulnerability) unless exploitation is confirmed (CISA KEV or vendor statement → 3). incident_date is the published date.",
+      "cvss": 7.3,
+      "kev": false,
+      "matched_keyword": "Claude Code",
+      "incident_date": "2026-11-20",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "90ee915071949310",
+    "source_id": "nvd",
+    "origin": "seed_nvd",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77389",
+    "title": "CVE-2026-77389: pmo-platform is a modular PMO and release-management platform for Claude Code.",
+    "published_at": "2026-11-20",
+    "publisher": "NVD",
+    "hint": "pmo-platform is a modular PMO and release-management platform for Claude Code. Prior to 3.73, core/hooks/block-fragile-refs.sh and core/hooks/block-gh-path-leak.sh source co-shipped awk primitives from core/hooks/lib/ and degrade when a required primitive is absent. In a partial or corrupted deployment, block-gh-path-leak.sh skips its entire path-leak check, while block-fragile-refs.sh skips only the positional-issue-reference detector and continues running its other detectors. Both hooks operate in a warning posture, so the impact is a skipped warning rather than bypass of an enforcing…",
+    "cve_ids": [
+      "CVE-2026-77389"
+    ],
+    "discovered_at": "2026-11-20T20:20:31.515Z",
+    "extra": {
+      "classifier_hint": "NVD CVE record matched by an allow-listed AI product keyword. In scope as attack_on_ai / infra_vuln when the affected software is an AI framework, model server, agent tool or AI product; out of scope if the keyword is a false positive. Severity 2 (disclosed vulnerability) unless exploitation is confirmed (CISA KEV or vendor statement → 3). incident_date is the published date.",
+      "cvss": 2,
+      "kev": false,
+      "matched_keyword": "Claude Code",
+      "incident_date": "2026-11-20",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "7639433cae77c6e2",
+    "source_id": "nvd",
+    "origin": "seed_nvd",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77349",
+    "title": "CVE-2026-77349: pmo-platform is a modular PMO and release-management platform for Claude Code.",
+    "published_at": "2026-11-20",
+    "publisher": "NVD",
+    "hint": "pmo-platform is a modular PMO and release-management platform for Claude Code. From 3.48 until 3.69.1, release/skills/pmo-skill-refiner/eval-viewer/generate_review.py reads untrusted model or skill output from workspace/run*/outputs/ and embeds it with json.dumps into viewer.html inside an inline script without escaping HTML metacharacters. A crafted output can close the script element and execute JavaScript when an operator generates and opens the viewer. The maintainer also confirmed that DOM-based injection through renderGrades and renderBenchmark innerHTML survives transport-only…",
+    "cve_ids": [
+      "CVE-2026-77349"
+    ],
+    "discovered_at": "2026-11-20T20:20:31.515Z",
+    "extra": {
+      "classifier_hint": "NVD CVE record matched by an allow-listed AI product keyword. In scope as attack_on_ai / infra_vuln when the affected software is an AI framework, model server, agent tool or AI product; out of scope if the keyword is a false positive. Severity 2 (disclosed vulnerability) unless exploitation is confirmed (CISA KEV or vendor statement → 3). incident_date is the published date.",
+      "cvss": 5,
+      "kev": false,
+      "matched_keyword": "Claude Code",
+      "incident_date": "2026-11-20",
+      "ai_hint": true
+    }
+  },
+  {
+    "key": "80f357856ff04c15",
+    "source_id": "nvd",
+    "origin": "seed_nvd",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77390",
+    "title": "CVE-2026-77390: pmo-platform is a modular PMO and release-management platform for Claude Code.",
+    "published_at": "2026-11-20",
+    "publisher": "NVD",
+    "hint": "pmo-platform is a modular PMO and release-management platform for Claude Code. Prior to 3.73, release/skills/pmo-skill-refiner/eval-viewer/generate_review.py and viewer.html contain three security weaknesses in the local evaluation viewer. During workspace scanning and generation, _find_runs_recursive and build_run follow symlinks and embed_file reads their targets without confining resolved paths to the workspace, although the server do_GET path is not a traversal surface. embed_file also reads output files without a size cap or redaction, allowing secrets or personally identifiable…",
+    "cve_ids": [
+      "CVE-2026-77390"
+    ],
+    "discovered_at": "2026-11-20T20:20:31.515Z",
+    "extra": {
+      "classifier_hint": "NVD CVE record matched by an allow-listed AI product keyword. In scope as attack_on_ai / infra_vuln when the affected software is an AI framework, model server, agent tool or AI product; out of scope if the keyword is a false positive. Severity 2 (disclosed vulnerability) unless exploitation is confirmed (CISA KEV or vendor statement → 3). incident_date is the published date.",
+      "cvss": 5.9,
+      "kev": false,
+      "matched_keyword": "Claude Code",
       "incident_date": "2026-11-20",
       "ai_hint": true
     }

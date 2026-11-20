@@ -875,9 +875,15 @@
         "publisher": "Help Net Security",
         "title": "NGINX2Root: F5 patches five critical NGINX vulnerabilities",
         "published_at": "2026-11-19"
+      },
+      {
+        "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco+Security+Advisory%26vs_cat%3DSecurity+Intelligence%26vs_type%3DRSS%26vs_p%3DVulnerabilities+in+nginx+Affecting+Cisco+Products%3A+November+2026%26vs_k%3D1",
+        "publisher": "Cisco",
+        "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
+        "published_at": "2026-11-20"
       }
     ],
-    "source_count": 4,
+    "source_count": 5,
     "confidence": 0.9,
     "status": "published",
     "origin": "news",
@@ -887,7 +893,7 @@
       "nginx"
     ],
     "created_at": "2026-11-18T19:41:51.600Z",
-    "updated_at": "2026-11-19T21:37:25.561Z",
+    "updated_at": "2026-11-20T20:21:29.672Z",
     "lane": "patch",
     "state": "live",
     "closed_at": null,
@@ -923,6 +929,12 @@
         "title": "NGINX2Root: F5 patches five critical NGINX vulnerabilities",
         "source_url": "https://helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities",
         "added_at": "2026-11-19T21:37:25.561Z"
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
+        "source_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco+Security+Advisory%26vs_cat%3DSecurity+Intelligence%26vs_type%3DRSS%26vs_p%3DVulnerabilities+in+nginx+Affecting+Cisco+Products%3A+November+2026%26vs_k%3D1",
+        "added_at": "2026-11-20T20:21:29.672Z"
       }
     ],
     "action": "Update NGINX to the latest patched version immediately, prioritizing internet-facing appliances.",
@@ -1491,9 +1503,15 @@
         "publisher": "The Hacker News",
         "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
         "published_at": "2026-11-18"
+      },
+      {
+        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-129448",
+        "publisher": "CISA",
+        "title": "CVE-2026-129448: Apache Roller — Apache Roller Deserialization of Untrusted Data Vulnerability",
+        "published_at": "2026-11-20"
       }
     ],
-    "source_count": 2,
+    "source_count": 3,
     "confidence": 0.95,
     "status": "published",
     "origin": "news",
@@ -1502,10 +1520,11 @@
       "apache",
       "roller",
       "exploitation",
-      "CVE-2026-129448"
+      "CVE-2026-129448",
+      "cisa-kev"
     ],
     "created_at": "2026-11-18T11:11:10.761Z",
-    "updated_at": "2026-11-18T19:41:51.600Z",
+    "updated_at": "2026-11-20T20:21:29.672Z",
     "lane": "patch",
     "state": "live",
     "closed_at": null,
@@ -1525,6 +1544,12 @@
         "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
         "source_url": "https://bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks",
         "added_at": "2026-11-18T11:11:10.761Z"
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Added to the CISA KEV catalog (exploitation confirmed)",
+        "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-129448",
+        "added_at": "2026-11-20T20:21:29.672Z"
       }
     ],
     "action": "Update Apache Roller to the latest patched version immediately.",
