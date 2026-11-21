@@ -1980,5 +1980,50 @@
       "incident_date": "2026-11-20",
       "ai_hint": true
     }
+  },
+  {
+    "key": "669406732a3f4212",
+    "source_id": "krebs",
+    "origin": "news",
+    "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud",
+    "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+    "published_at": "2026-11-21",
+    "publisher": "Krebs on Security",
+    "hint": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simply paying the attackers for a decryption key and charging victims a markup for work that was never performed.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-21T01:35:11.040Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "dfbade8483cd7428",
+    "source_id": "darkreading",
+    "origin": "news",
+    "url": "https://darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+    "title": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
+    "published_at": "2026-11-20",
+    "publisher": "Dark Reading",
+    "hint": "During the last wave of major VMware vCenter security updates, a China-nexus threat group likely already had its next zero-day up its sleeve.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-21T01:35:11.595Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "4a16eda10cea7aba",
+    "source_id": "unit42",
+    "origin": "news",
+    "url": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks",
+    "title": "Dialing for Data: Inside the Com’s High-Profile Heists",
+    "published_at": "2026-11-20",
+    "publisher": "Unit 42",
+    "hint": "Our analysis of Com affiliate vishing attacks, cloud data theft and extortion campaigns targeting healthcare and finance, with actionable defense guidance.",
+    "cve_ids": [],
+    "discovered_at": "2026-11-21T01:35:13.985Z",
+    "extra": {
+      "ai_hint": false
+    }
   }
 ]
