@@ -1338,7 +1338,7 @@
     "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
     "published_at": "2026-11-20",
     "publisher": "The Hacker News",
-    "hint": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4. The issue could",
+    "hint": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5), has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4.",
     "cve_ids": [
       "CVE-2026-23871"
     ],

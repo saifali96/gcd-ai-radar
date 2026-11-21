@@ -1521,9 +1521,15 @@
         "publisher": "CISA",
         "title": "CVE-2026-129448: Apache Roller — Apache Roller Deserialization of Untrusted Data Vulnerability",
         "published_at": "2026-11-20"
+      },
+      {
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+        "publisher": "The Hacker News",
+        "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+        "published_at": "2026-11-21"
       }
     ],
-    "source_count": 3,
+    "source_count": 4,
     "confidence": 0.95,
     "status": "published",
     "origin": "news",
@@ -1536,7 +1542,7 @@
       "cisa-kev"
     ],
     "created_at": "2026-11-18T11:11:10.761Z",
-    "updated_at": "2026-11-20T20:21:29.672Z",
+    "updated_at": "2026-11-21T09:54:30.209Z",
     "lane": "patch",
     "state": "live",
     "closed_at": null,
@@ -1562,6 +1568,12 @@
         "title": "Added to the CISA KEV catalog (exploitation confirmed)",
         "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-129448",
         "added_at": "2026-11-20T20:21:29.672Z"
+      },
+      {
+        "date": "2026-11-21",
+        "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+        "source_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+        "added_at": "2026-11-21T09:54:30.209Z"
       }
     ],
     "action": "Update Apache Roller to the latest patched version immediately.",

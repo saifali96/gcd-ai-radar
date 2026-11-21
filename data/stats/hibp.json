@@ -1,8 +1,9 @@
 {
- "fetched_at": "2026-11-20T11:47:31.128Z",
+ "fetched_at": "2026-11-21T09:54:30.447Z",
  "source": {"name":"Have I Been Pwned","url":"https://haveibeenpwned.com/","license":"CC BY 4.0"},
  "breaches": [
   {"name":"Careers360","title":"Careers360","domain":"careers360.com","breach_date":"2026-11-14","added":"2026-11-20","accounts":3609421,"verified":true,"sensitive":false,"spam_list":false,"stealer_log":false,"malware":false,"fabricated":false,"retired":false},
+  {"name":"TooLost","title":"Too Lost","domain":"toolost.com","breach_date":"2026-11-02","added":"2026-11-20","accounts":724323,"verified":true,"sensitive":false,"spam_list":false,"stealer_log":false,"malware":false,"fabricated":false,"retired":false},
   {"name":"CastleRAT","title":"CastleRAT","domain":"","breach_date":"2026-11-12","added":"2026-11-13","accounts":179745,"verified":true,"sensitive":false,"spam_list":false,"stealer_log":false,"malware":true,"fabricated":false,"retired":false},
   {"name":"SberSpasibo","title":"СберСпасибо (SberSpasibo)","domain":"spasibosberbank.ru","breach_date":"2023-03-09","added":"2026-11-11","accounts":3288711,"verified":true,"sensitive":false,"spam_list":false,"stealer_log":false,"malware":false,"fabricated":false,"retired":false},
   {"name":"YouHack","title":"YouHack","domain":"youhack.ru","breach_date":"2013-05-29","added":"2026-11-11","accounts":7160849,"verified":true,"sensitive":false,"spam_list":false,"stealer_log":false,"malware":false,"fabricated":false,"retired":false},
