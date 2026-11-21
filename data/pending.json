@@ -804,7 +804,7 @@
     "title": "AI Agent Authorization That Limits the Damage of Prompt Injection",
     "published_at": "2026-11-19",
     "publisher": "stackbuilders.com",
-    "hint": "",
+    "hint": "See how task-scoped AI agent authorization blocked unwanted ticket changes in a Quito Lambda demo, and what this teaches about prompt injection.",
     "cve_ids": [],
     "discovered_at": "2026-11-20T03:14:28.007Z",
     "extra": {
