@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "key": "8b082e360c9e3624",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info",
+    "title": "New Boston Scientific data breach exposes personal, medical info",
+    "published_at": "2026-11-27",
+    "publisher": "BleepingComputer",
+    "hint": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-27T18:58:31.962Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "30b0f99624beea5e",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution",
+    "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+    "published_at": "2026-11-27",
+    "publisher": "BleepingComputer",
+    "hint": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-27T18:58:31.962Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "ffd015cfc3747d72",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach",
+    "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+    "published_at": "2026-11-27",
+    "publisher": "BleepingComputer",
+    "hint": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-27T18:58:31.962Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "9846d5af9b337894",
+    "source_id": "kev",
+    "origin": "seed_nvd",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-136716",
+    "title": "CVE-2026-136716: Drupal Core — Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+    "published_at": "2026-11-27",
+    "publisher": "CISA",
+    "hint": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states. Added to the CISA Known Exploited Vulnerabilities catalog on 2026-11-27: exploitation confirmed. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage…",
+    "cve_ids": [
+      "CVE-2026-136716"
+    ],
+    "discovered_at": "2026-11-27T18:58:36.722Z",
+    "extra": {
+      "classifier_hint": "CISA KEV entry: exploitation in the wild is confirmed, so this is at least severity 3, lane patch, and clears the curation bar (newsworthy). attack_on_ai only when the product is an AI system, framework or tool; otherwise not_ai with categories [general]. patch_status from the required action: apply updates means patched, mitigations means partial.",
+      "kev": true,
+      "incident_date": "2026-11-27",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "due_date": "2026-11-30",
+      "ransomware": false,
+      "vendor": "Drupal",
+      "product": "Core",
+      "ai_hint": false
+    }
+  }
+]
