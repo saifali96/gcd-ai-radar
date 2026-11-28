@@ -102,5 +102,20 @@
       "query": "data breach",
       "ai_hint": false
     }
+  },
+  {
+    "key": "ed56aac972a34714",
+    "source_id": "thn",
+    "origin": "news",
+    "url": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+    "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+    "published_at": "2026-11-28",
+    "publisher": "The Hacker News",
+    "hint": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices being connected to their accounts. \"A cyber attack targeting pCloud Pass occurred, which was promptly contained by the pCloud team,\" the Swiss company said in response to a number of posts on Reddit. \"Unfortunately, a small number of pCloud Pass user email",
+    "cve_ids": [],
+    "discovered_at": "2026-11-28T10:26:15.919Z",
+    "extra": {
+      "ai_hint": false
+    }
   }
 ]
