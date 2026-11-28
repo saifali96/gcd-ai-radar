@@ -68,5 +68,39 @@
       "product": "Core",
       "ai_hint": false
     }
+  },
+  {
+    "key": "1fb658de3739200a",
+    "source_id": "bleepingcomputer",
+    "origin": "news",
+    "url": "https://bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts",
+    "title": "pCloud confirms password manager hack after suspicious login alerts",
+    "published_at": "2026-11-27",
+    "publisher": "BleepingComputer",
+    "hint": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled.…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-28T02:00:00.233Z",
+    "extra": {
+      "ai_hint": false
+    }
+  },
+  {
+    "key": "a0fb0dd97f116a2d",
+    "source_id": "hn",
+    "origin": "news",
+    "url": "https://easydns.com/blog/2026/11/27/easydns-data-breach",
+    "title": "EasyDNS Data Breach",
+    "published_at": "2026-11-27",
+    "publisher": "easydns.com",
+    "hint": "I'm writing to you today to tell you about a security incident that occurred at easyDNS which resulted in the exposure of certain customer data. What Happened On the morning of November 26, we became aware of unauthorized login to our AWS account and received reports of unauthorized use of…",
+    "cve_ids": [],
+    "discovered_at": "2026-11-28T02:01:46.194Z",
+    "extra": {
+      "hn_id": "50671965",
+      "points": 5,
+      "comments": 1,
+      "query": "data breach",
+      "ai_hint": false
+    }
   }
 ]
